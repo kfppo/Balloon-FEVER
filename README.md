@@ -1,7 +1,7 @@
 # Balloon-FEVER
 A 2D balloon-giving game written in C++ with SDL2 libraries
 
-<img src="resources/demo.PNG" width="600px" height="479px"></img>
+<img src="resources/preview.PNG" width="600px" height="479px"></img>
 
 #### Gameplay video:
 [https://youtu.be/oTC2I40KMhE](https://youtu.be/oTC2I40KMhE)
