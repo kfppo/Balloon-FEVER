@@ -42,7 +42,8 @@ void Intro::logic()
 	else
 	{
 		scoresHistory = readSaved();
-		std::cout << "The Highest Score: " + scoresHistory << std::endl;
+		std::cout << "The Highest Score: ";
+		std::cout << scoresHistory << std::endl;
 		is_read = true;
 
 		//Load text texture
