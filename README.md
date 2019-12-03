@@ -15,10 +15,10 @@ To build this project, you will need to install SDL2 developer libraries:
 [SDL2_mixer](https://www.libsdl.org/projects/SDL_mixer/)<br/>
 
 #### For Linux, you can install the required libraries in one line:
-`sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev`
-Compile the source using the make command:
-`make all`
-Run the game:
+`sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev`<br/>
+Compile the source using the make command:<br/>
+`make all`<br/>
+Run the game:<br/>
 `./balloon`
 
 ## Game Control
