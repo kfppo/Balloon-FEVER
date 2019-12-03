@@ -1,5 +1,5 @@
 # Balloon-FEVER
-A 2D balloon-giving game written in C++ with SDL2 libraries
+A 2D balloon-giving game written in C++ and SDL2 libraries
 
 <img src="resources/preview.PNG" width="600px" height="479px"></img>
 
@@ -7,13 +7,19 @@ A 2D balloon-giving game written in C++ with SDL2 libraries
 [https://youtu.be/oTC2I40KMhE](https://youtu.be/oTC2I40KMhE)
 
 ## Instructions
-#### Before Use
 To build this project, you will need to install SDL2 developer libraries:
 
 [SDL2](https://www.libsdl.org/download-2.0.php)<br/>
 [SDL2_image](https://www.libsdl.org/projects/SDL_image/)<br/>
 [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)<br/>
 [SDL2_mixer](https://www.libsdl.org/projects/SDL_mixer/)<br/>
+
+#### For Linux, you can install the required libraries in one line:
+`sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev`
+Compile the source using the make command:
+`make all`
+Run the game:
+`./balloon`
 
 ## Game Control
 - Left mouse button: Give small balloon
