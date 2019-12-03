@@ -1,7 +1,7 @@
 #include "classes.h"
 #include "globals.h"
 #include <iostream>
-#include <SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 #include <fstream>
 
 Intro::Intro()
