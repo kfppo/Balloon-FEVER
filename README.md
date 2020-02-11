@@ -26,7 +26,8 @@ Unzip the 4 files above and copy all files in `SDL2_mixer-x.x.x`, `SDL2_image-x.
 </br>
 
 #### 2. Install CMake
-[CMake](https://cmake.org/download/) (Windows win32-x86 Installer)<br/>
+[CMake](https://cmake.org/download/)
+(Windows win32-x86 Installer)</br>
 (Make sure to CHECK "Add CMake to the system PATH for all users" during the installation, </br>
 so you can fire the CMake command in PowerShell window directly.</br>
 
@@ -36,25 +37,20 @@ Open PoweShell window and `cd` the directory path to `Balloon-FEVER/build`</br>
 </br>
 Run command `cmake ../src` to build the project
 
-#### 4. Copy all required .dll files to `Balloon-FEVER/build` folder</br>
+#### 4. Copy all required .dll files to `Balloon-FEVER/build` folder
 For Windows x64, the required .dll files are in `Balloon-FEVER/src/lib/lib/x64`</br>
 For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`</br>
 
-#### 5. Use Visual Studio to open the project `balloon.sln` in `Balloon-FEVER/build` folder</br>
-</br>
-
-#### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"</br>
-</br>
-
-#### 7. Compile and Run</br>
-</br>
+#### 5. Use Visual Studio to open the project `balloon.sln` in `Balloon-FEVER/build` folder
+#### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"
+#### 7. Compile and Run
 </br>
 
 ### For Linux:
 Requires: SDL2 developer libraries, CMake, make</br>
 </br>
 
-#### 1. Install the required libraries</br>
+#### 1. Install the required libraries
 Linux user can install the required libraries in one command line:</br>
 `sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev cmake make`<br/>
 </br>
@@ -64,9 +60,8 @@ Open Terminal and `cd` the directory path to `Balloon-FEVER/build`</br>
 </br>
 Run command `cmake ../src` to build the project</br>
 
-#### 3. Run command `make` to compile the project</br>
-
-#### 4. Run `./balloon` to start the program</br>
+#### 3. Run command `make` to compile the project
+#### 4. Run `./balloon` to start the program
 
 ## Game Control
 - Left mouse button: Give small balloon
