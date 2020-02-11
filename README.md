@@ -8,7 +8,7 @@ A cross-platform (Windows, Linux) 2D clicker game written in C++ and SDL2 librar
 
 ## Instructions
 
-### For Windows:
+### For Windows: (Tested on Windows 10 1909)
 Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake
 
 #### To build this project, windows user will need to:
@@ -20,9 +20,11 @@ Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake
 [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)<br/>
 [SDL2_mixer](https://www.libsdl.org/projects/SDL_mixer/)<br/>
 
-Unzip the 4 files above and copy all files in `SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x` to
+Unzip the 4 files above and copy all files from</br>
+`SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x`</br>
+to</br>
 `Balloon-FEVER/src/lib`</br>
-(Pick "Replace" if Replace or Skip Files dialog show up while copying)
+(Choose "Replace" if Replace or Skip Files dialog show up while copying)
 
 #### 2. Install CMake
 [CMake](https://cmake.org/download/)
@@ -32,7 +34,7 @@ Unzip the 4 files above and copy all files in `SDL2_mixer-x.x.x`, `SDL2_image-x.
 
 #### 3. Build the project
 Open PoweShell window and `cd` the directory path to `Balloon-FEVER/build`</br>
-(or "Shift + Right Click -> Open PowerShell window here" in the `Balloon-FEVER/build` folder)</br>
+(or "Shift + Right Click -> Open PowerShell window here" inside `Balloon-FEVER/build` folder)</br>
 </br>
 Run command `cmake ../src` to build the project.
 
@@ -44,7 +46,7 @@ For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`<
 #### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"
 #### 7. Compile and Run
 
-### For Linux:
+### For Linux: (Tested on Ubuntu 18.04 LTS)
 Requires: SDL2 developer libraries, CMake, make
 
 #### 1. Install the required libraries
