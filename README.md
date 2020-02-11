@@ -8,7 +8,7 @@ A cross-platform (Windows, Linux) 2D clicker game written in C++ and SDL2 librar
 
 ## Instructions
 
-### For Windows: (Tested on Windows 10 1909)
+### * For Windows: (Tested on Windows 10 1909)
 Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake
 
 #### To build this project, windows user will need to:
@@ -45,9 +45,8 @@ For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`<
 #### 5. Use Visual Studio to open the project `balloon.sln` in `Balloon-FEVER/build` folder
 #### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"
 #### 7. Compile and Run
-</br>
 
-### For Linux: (Tested on Ubuntu 18.04 LTS)
+### * For Linux: (Tested on Ubuntu 18.04 LTS)
 Requires: SDL2 developer libraries, CMake, make
 
 #### 1. Install the required libraries
