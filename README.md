@@ -1,7 +1,7 @@
 # Balloon-FEVER
 A cross-platform (Windows, Linux) 2D clicker game written in C++ and SDL2 libraries
 
-<img src="resources/preview.PNG" width="600px" height="479px"></img>
+<img src="/src/resources/preview.PNG" width="600px" height="479px"></img>
 
 #### Gameplay video:
 [https://youtu.be/oTC2I40KMhE](https://youtu.be/oTC2I40KMhE)
