@@ -9,10 +9,8 @@ A cross-platform (Windows, Linux) 2D clicker game written in C++ and SDL2 librar
 ## Instructions
 
 ### For Windows:
-Requires: Visul Studio, SDL2 developer libraries, CMake</br>
-</br>
+Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake</br>
 To build this project, windows user will need to: </br>
-</br>
 
 #### 1. Install the SDL2 developer libraries:
 (Make sure to download the Development Libraries with tag "Visual C++ 32/64-bit")<br>
@@ -22,33 +20,25 @@ To build this project, windows user will need to: </br>
 [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)<br/>
 [SDL2_mixer](https://www.libsdl.org/projects/SDL_mixer/)<br/>
 
-</br>
-Unzip the 5 files above and copy all files in `SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x` to
+Unzip the 4 files above and copy all files in `SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x` to
 `Balloon-FEVER/src/lib`</br>
 (Pick "Replace" if Replace or Skip Files dialog show up while copying)</br>
 </br>
 
 #### 2. Install CMake
-</br>
 [CMake](https://cmake.org/download/) (Windows win32-x86 Installer)<br/>
-</br>
 (Make sure to CHECK "Add CMake to the system PATH for all users" during the installation, </br>
 so you can fire the CMake command in PowerShell window directly.</br>
-</br>
 
 #### 3. Build the project
-</br>
 Open PoweShell window and `cd` the directory path to `Balloon-FEVER/build`</br>
 (or "Shift + Right Click -> Open PowerShell window here" in the `Balloon-FEVER/build` folder)</br>
 </br>
-Run command `cmake ../src` to build the project</br>
-</br>
+Run command `cmake ../src` to build the project
 
 #### 4. Copy all required .dll files to `Balloon-FEVER/build` folder</br>
-</br>
 For Windows x64, the required .dll files are in `Balloon-FEVER/src/lib/lib/x64`</br>
 For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`</br>
-</br>
 
 #### 5. Use Visual Studio to open the project `balloon.sln` in `Balloon-FEVER/build` folder</br>
 </br>
@@ -70,17 +60,13 @@ Linux user can install the required libraries in one command line:</br>
 </br>
 
 #### 2. Build the project
-</br>
 Open Terminal and `cd` the directory path to `Balloon-FEVER/build`</br>
 </br>
 Run command `cmake ../src` to build the project</br>
-</br>
 
 #### 3. Run command `make` to compile the project</br>
-</br>
 
 #### 4. Run `./balloon` to start the program</br>
-</br>
 
 ## Game Control
 - Left mouse button: Give small balloon
