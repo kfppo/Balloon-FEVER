@@ -20,10 +20,10 @@ Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake
 [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)<br/>
 [SDL2_mixer](https://www.libsdl.org/projects/SDL_mixer/)<br/>
 
-Unzip the 4 files above and copy all files from</br>
-`SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x`</br>
-to</br>
-`Balloon-FEVER/src/lib`</br>
+Unzip the 4 files above and copy all files inside</br>
+`SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x` folder</br>
+to </br>
+project folder `Balloon-FEVER/src/lib`</br>
 (Choose "Replace" if Replace or Skip Files dialog show up while copying)
 
 #### 2. Install CMake
@@ -34,7 +34,7 @@ to</br>
 
 #### 3. Build the project
 Open PoweShell window and `cd` the directory path to the project folder `Balloon-FEVER/build`</br>
-(or "Shift + Right Click -> Open PowerShell window here" inside `Balloon-FEVER/build` folder)</br>
+(or "Shift + Right Click -> Open PowerShell window here" inside project folder `Balloon-FEVER/build`)</br>
 </br>
 Run command `cmake ../src` to build the project.
 
