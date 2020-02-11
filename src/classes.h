@@ -1,6 +1,6 @@
 #ifndef CLASSES_H_INCLUDED
 #define CLASSES_H_INCLUDED
-#include <SDL2/SDL.h>
+#include "SDL.h"
 #include "texture.h"
 
 //Game states enum
