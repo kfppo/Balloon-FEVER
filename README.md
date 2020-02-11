@@ -44,7 +44,7 @@ For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`<
 
 #### 5. Use Visual Studio to open the project `balloon.sln` in `Balloon-FEVER/build` folder
 #### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"
-#### 7. Compile and Run
+#### 7. Compile and Run</br>
 
 ### For Linux: (Tested on Ubuntu 18.04 LTS)
 Requires: SDL2 developer libraries, CMake, make
