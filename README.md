@@ -33,7 +33,7 @@ to</br>
 (Make sure to CHECK "Add CMake to the system PATH for all users" during the installation, so you can fire the CMake command in PowerShell window directly)</br>
 
 #### 3. Build the project
-Open PoweShell window and `cd` the directory path to `Balloon-FEVER/build`</br>
+Open PoweShell window and `cd` the directory path to the project folder `Balloon-FEVER/build`</br>
 (or "Shift + Right Click -> Open PowerShell window here" inside `Balloon-FEVER/build` folder)</br>
 </br>
 Run command `cmake ../src` to build the project.
@@ -54,7 +54,7 @@ Linux user can install the required libraries in one command line:</br>
 `sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev cmake make`
 
 #### 2. Build the project
-Open Terminal and `cd` the directory path to `Balloon-FEVER/build`</br>
+Open Terminal and `cd` the directory path to the project folder `Balloon-FEVER/build`</br>
 </br>
 Run command `cmake ../src` to build the project
 
