@@ -39,8 +39,8 @@ Open PoweShell window and `cd` the directory path to the project folder `Balloon
 Run command `cmake ../src` to build the project.
 
 #### 4. Copy all required .dll files to `Balloon-FEVER/build` folder
-For Windows x64, the required .dll files are in `Balloon-FEVER/src/lib/lib/x64`</br>
-For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`</br>
+For Windows x64, the required .dll files are in the project folder `Balloon-FEVER/src/lib/lib/x64`</br>
+For Windows x86, the required .dll files are in the project folder `Balloon-FEVER/src/lib/lib/x86`</br>
 
 #### 5. Use Visual Studio to open the project `balloon.sln` in `Balloon-FEVER/build` folder
 #### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"
