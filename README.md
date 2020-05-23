@@ -5,9 +5,9 @@ A cross-platform (Windows, Linux) 2D clicker game written in C++ and SDL2 librar
 
 #### Gameplay video: [https://youtu.be/oTC2I40KMhE](https://youtu.be/oTC2I40KMhE)
 
-### Setup
+## Setup
 
-#### For Windows: (Tested on Windows 10 1909)
+#### Windows (Tested on Windows 10 1909)
 Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake
 
 #### 1. Install SDL2 developer libraries:
@@ -20,7 +20,7 @@ Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake
 
 Unzip the 4 files above and copy all files inside</br>
 `SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x` folder</br>
-to: </br>
+To: </br>
 folder `Balloon-FEVER/src/lib`</br>
 (Choose "Replace" if Replace or Skip Files dialog show up while copying)
 
@@ -43,26 +43,26 @@ For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`<
 #### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"
 #### 7. Compile and Run
 ---
-#### For Linux: (Tested on Ubuntu 18.04 LTS)
+#### Linux (Tested on Ubuntu 18.04 LTS)
 Requires: SDL2 developer libraries, CMake, make
 
 #### 1. Install the required libraries
-Linux user can install the required libraries in one command line:</br>
+Linux user can install the required libraries in one line:</br>
 `sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev cmake make`
 
 #### 2. Build the project
-Open Terminal and dirrect to `Balloon-FEVER/build`</br>
+Open Terminal and direct to `Balloon-FEVER/build`</br>
 </br>
 Run `cmake ../src` to build the project
 
 #### 3. Run `make` to compile the project
 #### 4. Run `./balloon` to start the program
 
-### Game Control
+## Game Control
 - Left mouse button: Give small balloon
 - Right mouse button: Give big balloon
 
-### Credits
+## Credits
  - Some of the code in this project is repurposed from [Lazy Foo's tutorials](http://lazyfoo.net/tutorials/SDL/index.php).
  - Background music (resources/bg_music.mp3)
 <br>"Salty Ditty" by Kevin MacLeod (https://incompetech.com)
