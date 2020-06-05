@@ -16,7 +16,7 @@ What You Need:<br>
 ##### Section 1 - Prep Work
 1. Install SDL2 developer libraries:
     - Copy all files in the `SDL2-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x` and `SDL2_mixer-x.x.x` to the `Balloon-FEVER/src/lib` folder
-    - If you are prompted to handle duplicate files, press Replace
+    - If you are prompted to handle duplicate files, press "Replace"
 2. Install CMake
     - Make sure to Check "Add CMake to the system PATH for all users" in installation menu
 
@@ -26,10 +26,10 @@ What You Need:<br>
 3. Copy required .dll files to the `Balloon-FEVER/build` folder
     - For Windows x64 user, the required .dll files are in the `Balloon-FEVER/src/lib/lib/x64` folder
     - For Windows x86 user, the required .dll files are in the `Balloon-FEVER/src/lib/lib/x86` folder
-4. Open the project `balloon.sln` in the 'Balloon-FEVER/build' folder using Visual Studio
+4. Open the project `balloon.sln` in the `Balloon-FEVER/build` folder using Visual Studio
 5. Open Solution Explorer in the right side of the Visual Studio panel
 6. Right click on project "balloon" and select "Set as StartUp Project"
-7. Compile and Run (or press F5)
+7. Compile and Run (or press F5 in Visual Studio)
 
 ---
 #### Linux (Tested on Ubuntu 18.04 LTS)
