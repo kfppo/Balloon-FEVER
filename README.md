@@ -8,55 +8,45 @@ A cross-platform (Windows, Linux) 2D clicker game written in C++ and SDL2 librar
 ## Setup
 
 #### Windows (Tested on Windows 10 1909)
-Requires: Visul Studio (tested on VS16 2019), SDL2 developer libraries, CMake
+What You Need:<br>
+- Visul Studio (tested on VS16 2019)
+- SDL2 developer libraries ([SDL2](https://www.libsdl.org/download-2.0.php), [SDL2_image](https://www.libsdl.org/projects/SDL_image/), [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/), [SDL2_mixer](https://www.libsdl.org/projects/SDL_mixer/))
+- [CMake](https://cmake.org/download/) (Windows win32-x86 Installer)
 
-#### 1. Install SDL2 developer libraries:
-(Make sure to download the Development Libraries with tag "Visual C++ 32/64-bit")<br>
+##### Section 1 - Prep Work
+1. Install SDL2 developer libraries:
+    - Copy all files in the `SDL2-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x` and `SDL2_mixer-x.x.x` to the `Balloon-FEVER/src/lib` folder
+    - If you are prompted to handle duplicate files, press Replace
+2. Install CMake
+    - Make sure to Check "Add CMake to the system PATH for all users" in installation menu
 
-[SDL2](https://www.libsdl.org/download-2.0.php)<br/> 
-[SDL2_image](https://www.libsdl.org/projects/SDL_image/)<br/>
-[SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)<br/>
-[SDL2_mixer](https://www.libsdl.org/projects/SDL_mixer/)<br/>
+##### Section 2 - Build and Run
+1. Open PoweShell window and navigate to the `Balloon-FEVER/build` folder
+2. Invoke command `cmake ../src` in Powershell to build the project
+3. Copy required .dll files to the `Balloon-FEVER/build` folder
+    - For Windows x64 user, the required .dll files are in the `Balloon-FEVER/src/lib/lib/x64` folder
+    - For Windows x86 user, the required .dll files are in the `Balloon-FEVER/src/lib/lib/x86` folder
+4. Open the project `balloon.sln` in the 'Balloon-FEVER/build' folder using Visual Studio
+5. Open Solution Explorer in the right side of the Visual Studio panel
+6. Right click on project "balloon" and select "Set as StartUp Project"
+7. Compile and Run (or press F5)
 
-Unzip the 4 files above and copy all files inside</br>
-`SDL2_mixer-x.x.x`, `SDL2_image-x.x.x`, `SDL2_ttf-x.x.x`, `SDL2_mixer-x.x.x` folder</br>
-To: </br>
-folder `Balloon-FEVER/src/lib`</br>
-(Choose "Replace" if Replace or Skip Files dialog show up while copying)
-
-#### 2. Install CMake
-Download [CMake](https://cmake.org/download/)
-(Windows win32-x86 Installer)</br>
-</br>
-(Make sure to Check "Add CMake to the system PATH for all users" during the installation. This allows you to fire CMake command in PowerShell window)</br>
-
-#### 3. Build the project
-Open PoweShell window and direct to `Balloon-FEVER/build`</br>
-</br>
-Run `cmake ../src` to build the project.
-
-#### 4. Copy all required .dll files to `Balloon-FEVER/build` folder
-For Windows x64, the required .dll files are in `Balloon-FEVER/src/lib/lib/x64`</br>
-For Windows x86, the required .dll files are in `Balloon-FEVER/src/lib/lib/x86`</br>
-
-#### 5. Use Visual Studio to open the project `balloon.sln` in `Balloon-FEVER/build` folder
-#### 6. Open Solution Explorer inside Visual Studio, right click on "balloon" project and "Set as StartUp Project"
-#### 7. Compile and Run
 ---
 #### Linux (Tested on Ubuntu 18.04 LTS)
-Requires: SDL2 developer libraries, CMake, make
+What You Need: (See Section 1 for installation)<br>
+- SDL2 developer libraries
+- CMake
+- make
 
-#### 1. Install the required libraries
-Linux user can install the required libraries in one line:</br>
-`sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev cmake make`
+##### Section 1 - Prep Work
+1. Install the required libraries
+    - Invoke command `sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev cmake make` in the terminal
 
-#### 2. Build the project
-Open Terminal and direct to `Balloon-FEVER/build`</br>
-</br>
-Run `cmake ../src` to build the project
-
-#### 3. Run `make` to compile the project
-#### 4. Run `./balloon` to start the program
+##### Section 2 - Build and Run
+1. Open Terminal and navigate to the `Balloon-FEVER/build` folder
+2. Invoke command `cmake ../src` to build the project
+3. Invoke command `make` to compile the project
+4. Invoke command `./balloon` to start the game
 
 ## Game Control
 - Left mouse button: Give small balloon
